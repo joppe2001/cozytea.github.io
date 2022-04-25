@@ -1,0 +1,166 @@
+html {
+    background-color: black;
+    width: 100%;
+    display: block;
+    font-family: 'Helvetica', serif;
+    font-size: 22px;
+    opacity: .9;
+    color: white;
+}
+
+
+/* header */
+
+header {
+    height: 69;
+    position: sticky;
+    display: inline;
+}
+
+nav {
+    margin-right: 50px;
+}
+
+#header1 {
+    display: inline;
+}
+
+.page-sections {
+    position: sticky;
+    color: white;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.missions:hover,
+.featured:hover,
+.locations:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-menu {
+    color: seashell;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    padding: auto 20px;
+    background-color: black;
+    letter-spacing: 2px;
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    justify-content: space-between;
+    display: inline-flex;
+    z-index: 1;
+    opacity: .9;
+    margin: 0;
+}
+
+.logo {
+    height: 50px;
+    padding: 10px;
+}
+
+
+/* middle part */
+
+.hero {
+    height: 700px;
+    background-image: url("img-mission-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 1200px;
+    opacity: .5;
+    padding-top: 68px;
+    margin: 0;
+}
+
+.mission-background {
+    background-color: black;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 180px;
+    opacity: .7;
+}
+
+
+/* tea of the month */
+
+.title {
+    text-align: center;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.tea-location {
+    justify-content: center;
+    display: flex;
+}
+
+.photos {
+    height: 200px;
+}
+
+.totm {
+    justify-content: space-between;
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+/* locations */
+
+.box-container {
+    background-image: url(img-locations-background.png);
+    height: 500px;
+    background-size: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.location-flex {
+    display: flex;
+}
+
+.location-title {
+    font-weight: bold;
+    position: absolute;
+    align-self: flex-start;
+    text-align: center;
+}
+
+.box {
+    background-color: black;
+    margin: 40px;
+    width: 300px;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+div .box h3 {
+    line-height: 1.8;
+    margin: 0;
+}
+
+.below-box-container {
+    text-align: center;
+}
+
+footer {
+    padding-left: 10px;
+    padding-top: 20px;
+}
